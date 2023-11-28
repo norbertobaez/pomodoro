@@ -1,0 +1,74 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 157, 127);
+}
+
+#app{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: solid 1px rgb(255, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 241, 89);
+
+}
+
+#time{
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+#time #value{
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.input-text{
+    width: 300px;
+    height: 30px;
+    border: solid 1px rgb(255, 0, 0);
+}
+
+button,
+.input-submit{
+    border: none;
+    background-color: rgb(255, 94, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#tareas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.tarea{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.tarea .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.done {
+    display:inline-block;
+    padding: 5px;
+    background-color: darkgrey;
+}
